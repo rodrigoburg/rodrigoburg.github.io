@@ -6,21 +6,21 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en"
-title                    : "Site Title"
+locale                   : "pt-BR"
+title                    : "Rodrigo Burgarelli"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Rodrigo Burgarelli"
+description              : "Dados, jornalismo e brasilidades"
+url                      : "http://www.rodrigoburgarelli.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "rodrigoburg/rodrigoburg.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : disqus # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : rodrigoburgarelli.disqus.com # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -55,52 +55,56 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               :"rodrigoburg"
 facebook:
-  username               :
+  username               :"rodrigoburg"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : "Person" # Person or Organization (defaults to Person)
+  name                   : "Rodrigo Burgarelli" # If the user or organization name differs from the site's name
+  links: 
+    - "https://twitter.com/rodrigoburg"
+    - "https://www.facebook.com/rodrigoburg"
+    - "https://www.linkedin.com/in/rodrigo-burgarelli-6aa69018"
+    - "https://github.com/rodrigoburg"
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-72976784-2"
 
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Rodrigo Burgarelli"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Jornalista viciado em política, programação e visualização de dados. Atualmente repórter do Estadão Dados."
+  location         : "São Paulo - Brasil"
+  email            : "rodrigo.burgarelli1@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "https://www.facebook.com/rodrigoburg"
   foursquare       :
-  github           :
+  github           : "https://github.com/rodrigoburg"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/rodrigo-burgarelli-6aa69018"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "https://twitter.com/rodrigoburg"
   vine             :
   weibo            :
   xing             :
