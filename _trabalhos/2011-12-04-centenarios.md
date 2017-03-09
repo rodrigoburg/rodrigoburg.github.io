@@ -2,13 +2,18 @@
 layout: single
 title:  "Regiões pobres concentram centenários"
 date: 2011-12-04 
-categories: brasil demografia
+categories: brasil demografia 2011
+comments: true
+share: true
 header:
   teaser: "/assets/img/trabalhos/centenarios.png"
+sidebar:
+ - title: Publicado originalmente em O Estado de S. Paulo em 04/12/2011
+ - text: <a href="http://brasil.estadao.com.br/noticias/geral,regioes-pobres-concentram-centenarios,806310">Ver o original</a>
+
 ---
 
 <h3>Padrão se opõe ao dos idosos em geral no País, mostra IBGE</h3>
-<h4><a href="http://ciencia.estadao.com.br/noticias/geral,regioes-pobres-concentram-centenarios,806310">Publicado originalmente em O Estado de S. Paulo em 04/12/2011</a></h4>
 
 {% include figure image_path="/assets/img/trabalhos/centenarios.png" alt="Dados são do Censo 2010." caption="Recorte especial foi feito no Censo 2010." %}
 

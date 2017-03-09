@@ -2,13 +2,18 @@
 layout: single
 title:  "Brasil tem 42,7 mil crianças e adolescentes de até 14 anos casados"
 date: 2011-09-11 
-categories: brasil demografia
+categories: brasil demografia 2011
+comments: true
+share: true
 header:
-  teaser: "/assets/img/trabalhos/criancas_casadas.png"
+ teaser: "/assets/img/trabalhos/criancas_casadas.png"
+sidebar:
+ - title: Publicado originalmente em O Estado de S. Paulo em 11/09/2011
+ - text: <a href="http://brasil.estadao.com.br/noticias/geral,brasil-tem-42-7-mil-criancas-e-adolescentes-de-ate-14-anos-casados,770852">Ver o original</a>
+
 ---
 
 <h3>Uniões são informais, já que prática é proibida pelo Código Penal; a maior parte dos casos está em locais com baixa renda per capita</h3>
-<h4><a href="http://brasil.estadao.com.br/noticias/geral,brasil-tem-42-7-mil-criancas-e-adolescentes-de-ate-14-anos-casados,770852">Publicado originalmente em O Estado de S. Paulo em 11/09/2011</a></h4>
 
 {% include figure image_path="/assets/img/trabalhos/criancas_casadas.png" alt="Dados são do Censo 2010." caption="FOTO: Paulo Liebert/Estadão." %}
 
