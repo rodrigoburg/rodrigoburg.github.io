@@ -11,7 +11,7 @@ title                    : "Rodrigo Burgarelli"
 title_separator          : "|"
 name                     : "Rodrigo Burgarelli"
 description              : "Dados, ciência e brasilidades"
-url                      : "http://www.rodrigoburgarelli.com"
+url                      : "https://www.rodrigoburgarelli.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "rodrigoburg/rodrigoburg.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/img/teaser_default.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -34,7 +34,7 @@ staticman:
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
-  moderation             : true
+  moderation             : false
   path                   : "docs/_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
