@@ -1,11 +1,15 @@
 # main links
 main:
+  - title: "Blog"
+    url: /blog
+  - title: "Trabalhos"
+    url: /trabalhos  
+  #- title: "Posts antigos"
+  #  url: /page-archive  
   - title: "Sobre"
     url: /sobre
   #- title: "Trabalhos"
   #  url: /trabalhos/
-  #- title: "Posts antigos"
-  #  url: /page-archive/
   #- title: "Tags"
   #  url: /tags/
 

@@ -18,7 +18,7 @@
 
 
 
-<meta name="description" content="Dados, jornalismo e brasilidades">
+<meta name="description" content="Dados, ciência e brasilidades">
 
 
 
@@ -37,11 +37,13 @@
 
   <meta name="twitter:site" content="@rodrigoburg">
   <meta name="twitter:title" content="Rodrigo Burgarelli">
-  <meta name="twitter:description" content="Dados, jornalismo e brasilidades">
+  <meta name="twitter:description" content="Dados, ciência e brasilidades">
   <meta name="twitter:url" content="http://localhost:4000/">
 
   
     <meta name="twitter:card" content="summary">
+    
+      <meta name="twitter:image" content="http://localhost:4000/assets/images/og_image_default.png">
     
   
 
@@ -55,12 +57,23 @@
 
 
 
+  <meta property="og:image" content="http://localhost:4000/assets/images/og_image_default.png">
 
 
 
 
 
 
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "http://localhost:4000",
+      "logo": "http://localhost:4000/assets/images/og_image_default.png"
+    }
+  </script>
 
 
 
@@ -116,7 +129,13 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Rodrigo Burgarelli</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><!--<a href="http://localhost:4000/">-->Rodrigo Burgarelli<!--<a</a>--></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/blog">Blog</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/trabalhos">Trabalhos</a></li>
           
             
             <li class="masthead__menu-item"><a href="http://localhost:4000/sobre">Sobre</a></li>
@@ -149,7 +168,7 @@
 
   <div class="author__content">
     <h3 class="author__name">Rodrigo Burgarelli</h3>
-    <p class="author__bio">Jornalista interessado em política, programação e visualização de dados. Atualmente, é repórter do Estadão Dados.</p>
+    <p class="author__bio">Repórter e data analyst interessado em política, estatística e visualização de dados. Atualmente, é repórter do Estadão Dados.</p>
   </div>
 
   <div class="author__urls-wrapper">
@@ -207,6 +226,32 @@
     <h3 class="archive__subtitle">Postagens recentes</h3>
 
 
+  
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/jekyll/update/writing-jekyll-posts/" rel="permalink">Welcome to Jekyll!
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+  
+	  meno que 1 minutos de leitura
+	
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...</p>
+  </article>
+</div>
+
 
 
 
@@ -237,7 +282,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2016 Rodrigo Burgarelli. Feito com <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2017 Rodrigo Burgarelli. <span style="font-size:.6175em">Feito com <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</span></div>
       </footer>
     </div>
 

@@ -8,19 +8,19 @@
 # Site Settings
 locale                   : "pt-BR"
 title                    : "Rodrigo Burgarelli"
-title_separator          : "-"
+title_separator          : "|"
 name                     : "Rodrigo Burgarelli"
-description              : "Dados, jornalismo e brasilidades"
-url                      : "http://www.rodrigoburgarelli.com"
+description              : "Dados, ciência e brasilidades"
+url                      : "https://www.rodrigoburgarelli.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "rodrigoburg/rodrigoburg.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/teaser_default.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : disqus # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            : rodrigoburgarelli.disqus.com # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "rodrigoburgarelli.disqus.com" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -60,7 +60,7 @@ facebook:
   username               : "rodrigoburg"
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/og_image_default.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -83,7 +83,7 @@ analytics:
 author:
   name             : "Rodrigo Burgarelli"
   avatar           : "/assets/img/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Jornalista interessado em política, programação e visualização de dados. Atualmente, é repórter do Estadão Dados."
+  bio              : "Repórter e data analyst interessado em política, estatística e visualização de dados. Atualmente, é repórter do Estadão Dados."
   location         : "São Paulo - Brasil"
   email            : "rodrigo.burgarelli1@gmail.com"
   uri              :
@@ -255,3 +255,8 @@ defaults:
       type: pages
     values:
       layout: single
+
+collections:
+  trabalhos:
+    output: true
+
