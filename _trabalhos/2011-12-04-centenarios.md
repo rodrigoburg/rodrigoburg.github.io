@@ -2,7 +2,7 @@
 layout: single
 title:  "Regiões pobres concentram centenários"
 date: 2011-12-04 
-categories: brasil demografia 2011
+categories: brasil demografia 2011 reportagem
 comments: true
 share: true
 header:

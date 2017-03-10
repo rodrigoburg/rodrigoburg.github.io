@@ -2,7 +2,7 @@
 layout: single
 title:  "Brasil tem 42,7 mil crianças e adolescentes de até 14 anos casados"
 date: 2011-09-11 
-categories: brasil demografia 2011
+categories: brasil demografia 2011 reportagem
 comments: true
 share: true
 header:
